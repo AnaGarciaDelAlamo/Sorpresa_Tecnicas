@@ -1,0 +1,42 @@
+@startuml
+Interface GUIFactory{
++createButton():Button
++createCheckbox():Checkbox
+}
+
+class WinFactory implements GUIFactory{
++createButton():Button
++createCheckbox():Checkbox
+}
+
+class MacFactory implements GUIFactory{
++createButton():Button
++createCheckbox():Checkbox
+}
+
+class Application{
+-factory:GUIFactory
+-button:Button
+-checkbox:Checkbox
+
++Application(factory:GUIFactory)
++createUI()
+}
+
+Interface Button
+Interface Checkbox
+
+class WinButton implements Button
+class WinCheckbox implements Checkbox
+class MacButton implements Button
+class MacCheckbox implements Checkbox
+
+Application -> GUIFactory
+Application --> Button
+MacFactory --> MacButton
+MacFactory --> MacCheckbox
+WinFactory --> WinButton
+WinFactory --> WinCheckbox
+
+
+@enduml

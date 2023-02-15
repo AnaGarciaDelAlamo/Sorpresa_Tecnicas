@@ -1,3 +1,7 @@
 # Sorpresa_Tecnicas
 
 Este es mi repositorio https://github.com/AnaGarciaDelAlamo/Sorpresa_Tecnicas.git
+
+## UML
+
+<img src="https://www.plantuml.com/plantuml/svg/jPBDJiCm48Jl-nG-9ghy0ZrK1IHG3Xmhpkwo5HR-YUoD1AfuTmYEkqO4Jd2pPYQVToVUPpQ99-zW24pfP93KtM6uDSWnlPvXWuaCq_N474FNRykXoZTFXC_7-F9Xr2Ey0Q0pEQi76nQCidvqv2bm_YlulS7_Wr-DexDesCPm1dqgnAt0GHy_OPMfSK482pODfFkEwEiWXw7hvvkb_WKgWa0lnPPCktfH954_QZDLamv_uaZYLmuqIogzQ_h_wkXTvSf_crKPOSMut38_9B5a_HL39eCzXSV9ktS0"/>
